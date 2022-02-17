@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Warehouse {
-    private static final Logger logger = LogManager.getLogger();
+    static final Logger logger = LogManager.getLogger();
     private static Warehouse instance;
     private final Map<Long, CustomArrayStatistics> mapStatistics;
 
