@@ -14,7 +14,7 @@ import java.lang.String;
 
 public class CustomArrayReaderImpl implements CustomArrayReader {
 
-    private static final Logger logger = LogManager.getLogger();
+    static final Logger logger = LogManager.getLogger();
 
     @Override
     public String readArrayStrFromFile(String filePath) throws CustomArrayException {
