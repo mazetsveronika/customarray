@@ -91,7 +91,6 @@ public class CustomArrayObserverImpl implements CustomArrayObserver {
             statistics.setSum(action.getSummary(source));
         } catch (CustomArrayException e) {
             logger.error(e.getMessage());
-            e.printStackTrace();
         }
     }
 }
