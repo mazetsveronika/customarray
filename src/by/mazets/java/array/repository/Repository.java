@@ -1,6 +1,5 @@
 package by.mazets.java.array.repository;
 import by.mazets.java.array.entity.CustomArray;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 
