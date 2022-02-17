@@ -45,7 +45,7 @@ public class CustomArrayRepositoryImpl implements Repository {
     }
 
     @Override
-    public void addAllCustomArray (Collection<CustomArray> customArray) {
+    public void addAllCustomArray (List<CustomArray> customArray) {
         arrays.addAll(customArray);
         logger.log(Level.INFO, "New arrays in repository: " + customArray);
     }
@@ -56,7 +56,7 @@ public class CustomArrayRepositoryImpl implements Repository {
     }
 
     @Override
-    public boolean removeAllCustomArray(Collection<CustomArray> customArray) {
+    public boolean removeAllCustomArray(List<CustomArray> customArray) {
         return arrays.removeAll(customArray);
     }
 
