@@ -8,11 +8,11 @@ public interface Repository {
 
     void addArray(CustomArray customArray);
 
-    void addAllArrays(Collection<? extends CustomArray> arrayEntities);
+    void addAllArrays(List<? extends CustomArray> customArray);
 
     void removeArray(CustomArray customArray);
 
-    void removeAllArrays(Collection<?> arrayEntities);
+    void removeAllArrays(List<?> customArray);
 
     CustomArray get(int index);
 
